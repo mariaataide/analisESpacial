@@ -15,7 +15,7 @@ prep_dados_aede(year, tipo_matriz)
 Um \code{data.frame} com 78 linhas e 43 colunas, contendo variáveis fiscais, demográficas, políticas, demográficas para os 78 municípios capixabas.
 }
 \description{
-A função filtra o painel de dados por ano, além de calcular e agregar ao data.frame o I de Moran local, usado para classificar as observações em clusters do mapa de significância LISA e quadrantes do gráfico de dispersão de Moran.
+A função filtra o painel de dados por ano, além de calcular o I de Moran local e agregar o p-valor do teste ao \code{data.frame} , usado para classificar as observações em clusters do mapa de significância LISA e quadrantes do gráfico de dispersão de Moran.
 }
 \examples{
 #Preparar os dados para o ano 2015 e usar a matriz `mat_idw`.

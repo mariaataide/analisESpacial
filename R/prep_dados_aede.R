@@ -1,6 +1,6 @@
 #' Prepara os dados para a AEDE
 #'
-#' A função filtra o painel de dados por ano, além de calcular e agregar ao data.frame o I de Moran local, usado para classificar as observações em clusters do mapa de significância LISA e quadrantes do gráfico de dispersão de Moran.
+#' A função filtra o painel de dados por ano, além de calcular o I de Moran local e agregar o p-valor do teste ao `data.frame` , usado para classificar as observações em clusters do mapa de significância LISA e quadrantes do gráfico de dispersão de Moran.
 #'
 #' @param year Seleciona o ano.
 #' @param tipo_matriz Objeto do tipo `listw` ou `matrix` representado os pesos espaciais para os municípios do Espírito Santo. Usar os matrizes `mat_idw`, `mat_idw_100_km`, `mat_idw_50_km`, `mat_queen`i nclusas no pacote ou as funções  `spdep::nb2mat`, `spdep::nb2listw` ou `spdep::nb2listwdist` para criar uma matriz de pesos espaciais para o Espírito Santo.
