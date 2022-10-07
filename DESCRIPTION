@@ -1,0 +1,27 @@
+Package: analisESpacial
+Title: Analisa os Efeitos das Transferências Incodicionais sobre Gastos dos Municípios Capixabas
+Version: 0.0.0.9000
+Authors@R: 
+    person("Maria Amélia", "Santiago Ataide", , "mariaameliasantiago@gmail.com", role = c("aut", "cre"), comment = c(ORCID = "0000-0002-2771-1836"))
+Description: Verifica a ocorrência do efeito flypaper e de transbordamentosespaciais na despesa dos 78 municípios capixabas, através de Análise Exploratória de Dados Espaciais (AEDE) e da estimação de modelos econométrico-espacias.
+License: CC BY 4.0
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
+Depends: 
+    R (>= 2.10)
+LazyData: true
+Imports: 
+    dplyr,
+    ggplot2,
+    huxtable,
+    olsrr,
+    purrr,
+    sf,
+    spdep,
+    splm,
+    stringr,
+    tibble,
+    tidyr
+Remotes: 
+    ianmoran11/mmtable2

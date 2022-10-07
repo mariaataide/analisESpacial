@@ -1,0 +1,25 @@
+utils::globalVariables(
+  c(
+    "log_desppc",
+    "log_transfpc",
+    "nm_mun",
+    "painel",
+    "sf_munES",
+    "w_log_desppc",
+    "log_desppc_pad",
+    "quadrante",
+    "w_log_desppc_pad",
+    "mat_idw",
+    "mat_idw_100_km",
+    "mat_idw_50_km",
+    "mat_queen",
+    "cluster",
+    "freq_rel",
+    "freq_abs",
+    "matriz",
+    "modeloEsp",
+    "Teste",
+    "p-valor",
+    "ano"
+  )
+)
