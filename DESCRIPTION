@@ -25,3 +25,5 @@ Imports:
     tidyr
 Remotes: 
     ianmoran11/mmtable2
+URL: https://github.com/mariaataide/analisESpacial
+BugReports: https://github.com/mariaataide/analisESpacial/issues
